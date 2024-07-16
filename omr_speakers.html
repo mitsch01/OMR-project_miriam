@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OMR24 Speakers</title>
+  <link rel="stylesheet" href="/omr.css">
+  <link rel="stylesheet" href="/fonts/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="/fonts/OMR-Sans/OMR-Sans-Bold.woff2">
+  <link rel="stylesheet" href="/fonts/OMR-Sans/OMR-Sans-Extra-Bold.woff2">
+  <link rel="stylesheet" href="/fonts/OMR-Sans/OMR-Sans-Regular.woff2">
+</head>
+
+<body>
+  <header>
+    <section class="menu-container">
+      <section id="menu1">
+        <section id="menu1-left">
+          <a href="/omr_home.html"><img src="/images/_omr_black.svg" alt="OMR Logo" id="logo-omr"></a>
+          <nav>
+            <ul>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="/omr_speakers.html">FESTIVAL</a></li>
+              <li><a href="#">PARTNERS</a></li>
+              <li><a href="#">JOBS & HR</a></li>
+            </ul>
+          </nav>
+        </section>
+
+        <section id="menu1-right">
+          <a href="#"><img src="/images/_vodafone_black.png" alt="Vodafone Logo" id="logo-vodafone"></a>
+          <div class="language-selector" id="language-selector">
+            <button id="selected-language">
+              <img src="/images/_english.svg" alt="English" id="current-flag">
+            </button>
+            <div class="language-options" id="language-options">
+              <button data-flag="/images/_english.svg"><img src="/images/_english.svg" alt="English"></button>
+              <button data-flag="/images/_german.svg"><img src="/images/_german.svg" alt="German"></button>
+            </div>
+          </div>
+          <a href="#">LOGIN</a>
+        </section>
+      </section>
+
+      <section id="menu2">
+        <nav>
+          <ul>
+            <li>
+              <p id="omr-home">FESTIVAL</p>
+            </li>
+            <li><a href="/omr_speakers.html">SPEAKERS</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">TIMETABLE</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section id="menu3">
+        <a href="#"><img src="/images/_omr.svg" alt="OMR Logo" id="logo-omr"></a>
+        <a href="#"><img src="/images/_vodafone.svg" alt="Vodafone Logo" id="logo-vodafone"></a>
+        <i class="fa-solid fa-bars" id="menu-toggle"></i>
+
+        <nav id="menu3-dropdown">
+          <ul>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="/omr_speakers.html">FESTIVAL</a></li>
+            <li><a href="#">PARTNERS</a></li>
+            <li><a href="#">JOBS & HR</a></li>
+          </ul>
+        </nav>
+      </section>
+    </section>
+  </header>
+
+  <main>
+    <section class="banner">
+      <div class="banner-overlay">
+        <h1 id="banner-h1-top">THE #OMR24</h1>
+        <h1 id="banner-h1-bottom">SPEAKERS</h1>
+        <img class="ufo" src="/images/_ufo_header.svg" alt="Ufo">
+      </div>
+      <img class="header-image" src="/images/_header_mobile.jpeg" alt="Speakers Banner">
+    </section>
+
+    <section class="lineup-speakers">
+      <section class="lineup">
+        <h2>THE LINEUP #OMR24</h2>
+        <p>Big-name international speakers and hidden champions will be on stage in Hamburg at OMR24. Here’s a look at
+          the lineup:</p>
+        <div class="search-filter">
+          <div class="dropdown">
+            <button class="dropbtn">TOPICS</button>
+            <div class="dropdown-content" id="topics-dropdown">
+              <label class="checkbox">
+                <input type="checkbox" value="Adtech">
+                Adtech
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="AI & Innovation">
+                AI & Innovation
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Brands">
+                Brands
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Content">
+                Content
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Culture">
+                Culture
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="E-Commerce">
+                E-Commerce
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Finance">
+                Finance
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Influencer">
+                Influencer
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Podcast">
+                Podcast
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Programmatic">
+                Programmatic
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Publishing">
+                Publishing
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Purpose & Sustainability">
+                Purpose & Sustainability
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Social">
+                Social
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Startups">
+                Startups
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="Video & Streaming">
+                Video & Streaming
+              </label>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">DAYS</button>
+            <div class="dropdown-content" id="days-dropdown">
+              <label class="checkbox">
+                <input type="checkbox" value="05/07/2024">
+                05/07/2024
+              </label>
+              <label class="checkbox">
+                <input type="checkbox" value="05/08/2024">
+                05/08/2024
+              </label>
+            </div>
+          </div>
+          <div class="input-container">
+            <i class="fas fa-search"></i>
+            <input type="text" placeholder="Search...">
+          </div>
+        </div>
+        <div class="speakers-grid" id="speakersContainer">
+          <a href="">
+            <div class="speaker-card">
+              <!-- speakers will be added from json file -->
+            </div>
+          </a>
+        </div>
+        </div>
+      </section>
+
+      <section class="load-speakers">
+        <button class="loadbtn">SHOW MORE</button>
+      </section>
+    </section>
+
+    <section class="newsletter">
+      <div class="newsletter-container">
+        <h2>GET THE LATEST NEWS SURROUNDING THE OMR FESTIVAL DELIVERED STRAIGHT TO YOUR INBOX</h2>
+        <form>
+          <div class="newsletter-grid">
+            <input type="text" placeholder="First name" required>
+            <input type="text" placeholder="Last name" required>
+            <input type="email" placeholder="E-Mail" required>
+            <div class="captcha">
+              <i class="fa-solid fa-shield" id="captchaIcon"></i>
+              <div>
+                <p id="captchaText">Anti-Robot Verification</p>
+                <button type="button" id="captchaButton">Click to start verification</button>
+              </div>
+            </div>
+          </div>
+          <button type="submit" class="subscribe-button">SUBSCRIBE</button>
+          <a href="https://hi.omr.com/erste-omr24-speakerinnen" class="example-link">SHOW ME AN EXAMPLE ></a>
+        </form>
+      </div>
+      </div>
+      <!-- <img id="planet1" src="/images/_planet1.svg" alt="Planet"> -->
+      <img id="planet2" src="/images/_planet2.svg" alt="Planet">
+      <!-- <img id="stars3"src="/images/_stars3.svg" alt="Stars"> -->
+      <!-- <img id="stars4"src="/images/_stars4.svg" alt="Stars">
+    <img id="stars5"src="/images/_stars5.svg" alt="Stars"> -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-info">
+      <nav class="footer">
+        <span>© 2024</span>
+        <a href="#">About</a>
+        <a href="#">OMR Family Member</a>
+        <a href="#">Career</a>
+        <a href="#">Press</a>
+        <a href="#">Contact</a>
+        <a href="#">Newsletter</a>
+        <a href="#">Imprint</a>
+        <a href="#">Data Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Cookie Settings</a>
+      </nav>
+    </section>
+
+    <section class="social-icons">
+      <a href="#"><img src="/images/_facebook_white.svg" alt="Facebook"></a>
+      <a href="#"><img src="/images/_x.svg" alt="Twitter"></a>
+      <a href="#"><img src="/images/_tiktok_white.svg" alt="TikTok"></a>
+      <a href="#"><img src="/images/_xing.svg" alt="Xing"></a>
+      <a href="#"><img src="/images/_youtube.svg" alt="YouTube"></a>
+      <a href="#"><img src="/images/_insta_white.svg" alt="Instagram"></a>
+      <a href="#"><img src="/images/_linkedin_white.svg" alt="LinkedIn"></a>
+      <a href="#"><img src="/images/_mikro_white.svg" alt="Mikro"></a>
+      <a href="#"><img src="/images/_spotify.svg" alt="Spotify"></a>
+      <a href="#"><img src="/images/_podcast_white.svg" alt="Podcast"></a>
+      <a href="#"><img src="/images/_rss_white.svg" alt="RSS"></a>
+    </section>
+
+    <section class="questions">
+      <button class="fixed-button" id="openPopup">
+        <p>Any questions?</p>
+        <i class="fa-regular fa-comment"></i>
+      </button>
+
+      <section class="popup" id="popupForm">
+        <div class="popup-header">
+          <span class="close-btn" id="closePopup">&times;</span>
+          <h2>How can we help you?</h2>
+          <p>Get in touch with the OMR Support</p>
+        </div>
+        <div class="popup-content">
+          <form>
+            <label for="name">First and Last Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="email">Mail address</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">How can we help you? </label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </section>
+  </footer>
+  <script src="/omr_speakers.js"></script>
+</body>
+
+</html>

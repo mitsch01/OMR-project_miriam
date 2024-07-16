@@ -1,0 +1,763 @@
+{
+  "speaker": [
+    {
+      "name": "Pedro Remoaldo",
+      "title": "Developer & Author",
+      "description": "Pedro is a full-stack web developer with over 20 years of experience in several areas of computer science. He has been a computer science instructor for the last 20 years, and he is also a book author.",
+      "topics": "Influencer",
+      "image": "/images/pedro-remoaldo.png",
+      "id": 1,
+      "event_id": "2",
+      "day": "05/08/2024"
+    },
+    {
+      "name": "Kim Kardashian",
+      "title": "Entrepreneur",
+      "description": "Entrepreneur, business mogul, actor and producer Kim Kardashian first burst onto the scene in 2007 after the premiere of her hit E! Entertainment reality series “Keeping Up with the Kardashians” which ended in 2021 after twenty seasons. Kardashian and her family signed a new multi-year deal with HULU to create “The Kardashians,” which began airing in early 2022 and is now in its fifth season. In 2023, Kim starred in “American Horror Story” season 12 alongside Emma Roberts and announced two upcoming projects – as producer and star of a legal drama series created by Ryan Murphy and as producer and actor in the comedy film, “The Fifth Wheel”, which was sold to Netflix.   Kardashian is the founder of SKIMS, the solutions-oriented underwear, loungewear and shapewear brand, which launched in 2019 and is now valued at USD 4b. In 2022, she launched both her innovative skincare brand SKKN BY KIM and private equity firm SKKY Partners with Jay Sammons.   Kardashian, as one of the most followed social media accounts on the internet, uses her platform to bring awareness and attention to her fight for criminal justice reform and is currently studying for a law degree through the apprenticeship program in the state of California. She passed the first of two bar exams in December 2021. She is also a supporter of numerous charitable organizations including the Children’s Hospital Los Angeles, the Dream Foundation and disaster relief efforts including the fires in Los Angeles, and helped open the Robert G. Kardashian Center for Esophageal Health at UCLA.",
+      "topics": "INFLUENCER | E-COMMERCE",
+      "day": "05/07/2024",
+      "image": "/images/Kim_Kardashian.png",
+      "id": 2,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Rick Rubin",
+      "title": "Def Jam Recordings & American Recordings | Music Producer & Founder",
+      "description": "Few individuals have affected as many corners of the musical universe for as long as Rick Rubin. He has collaborated with artists from Jay-Z to Tom Petty, Red Hot Chili Peppers to Johnny Cash, Adele to Slayer, Lana Del Rey to Black Sabbath. Rubin founded Def Jam Recordings while at New York University. Working from his dormitory, his first recordings with LL Cool J, the Beastie Boys, Public Enemy and Run DMC took hip-hop music out of the underground and into the mainstream. Since that time, he has produced and guided the most popular and cutting-edge musicians on the planet, in addition to owning and operating his own label, American Recordings. Rubin was named a _TIME_ '100 Most Influential People in the World.' He has won nine Grammys and two CMAs. In 2021, he interviewed Paul McCartney for the Emmy-nominated documentary series _McCartney 3,2,1_, which Rubin also executive produced. He most recently released his first book 'The Creative Act', which was an immediate #1 New York Times Bestseller and launched a global conversation about creativity, causing #RickRubin to trend on TikTok and receive over 39M views.",
+      "topics": "CULTURE",
+      "day": "05/08/2024",
+      "image": "/images/Rick_Rubin.png",
+      "id": 3,
+      "event_id": "3, 7, 16"
+    },
+    {
+      "name": "Kara Swisher",
+      "title": "Podcaster & Influential Tech Journalist",
+      "description": "Kara Swisher is host of On with Kara Swisher, co-host of the Pivot podcast, and editor-at-large at New York Magazine. She is the former host of the Sway and Recode Decode podcasts and co-founder of the technology website, Recode, and tech conference, Code, which is the country’s premier conference on tech and media. Considered the top reporter in the tech game, Swisher has been reporting on the industry since the early 1990s. She was there when Amazon was looking for its first headquarters in Seattle, when Google was in its garage and when Netflix was just a small startup. Once called “Silicon Valley's most feared but revered journalist,” Swisher has established herself as the oracle of the tech world with unrivaled access to the industry's most significant leaders.",
+      "topics": "ADTECH | PODCAST",
+      "day": "05/08/2024",
+      "image": "/images/Kara_Swisher.png",
+      "id": 4,
+      "event_id": "5, 15"
+    },
+    {
+      "name": "Tim Ferriss",
+      "title": "Author & Podcaster",
+      "description": "Tim Ferriss is an entrepreneur of many hats: best-selling author of 'The 4-Hour Workweek', 'The 4-Hour Body', 'The 4-Hour Chef', 'Tools of Titans' and 'Tribe of Mentors', successful Angel Investor, frequent speaker, guest and interview partner for some of the world’s most-prestigious media outlets, universities and organizations. However, he is probably best-known as host of top-ranked Apple Podcast “The Tim Ferriss Show” podcast, _where_ he speaks to A-listers from all walks of life. Tim received his BA from Princeton University in 2000, where he focused on language acquisition and East Asian Studies. He developed his nonfiction writing with Pulitzer Prize winner John McPhee and formed his life philosophies under Nobel Prize winner Kenzaburō Ōe. He is far dumber than both.",
+      "topics": "NEW WORK | PODCAST",
+      "day": "05/08/2024",
+      "image": "/images/Tim_Ferriss.png",
+      "id": 5,
+      "event_id": "6"
+    },
+    {
+      "name": "Robert Habeck",
+      "title": "Federal Minister for Economic Affairs and Climate Action",
+      "description": "He is the first member of the German Green party _Die Grünen _to hold the office of Federal Minister of Economic Affairs and Climate Action. The 54-year-old is one of the political shooting stars in recent years. In fact, it took him just under ten years to go from District Chair of Bündnis 90/Die Grünen in Schleswig-Flensburg to Deputy State Premier of the Federal State of Schleswig-Holstein. In 2018, he advanced to Chair of the Green Party at the federal level, before continuing his rise after the general election and being named Vice-Chancellor and Minister for Economic Affairs and Climate Protection. It’s a key post and a massive challenge.",
+      "topics": "PURPOSE & SUSTAINABILITY | AI & INNOVATION | STARTUPS",
+      "day": "05/07/2024",
+      "image": "/images/Robert_Habeck.png",
+      "id": 6,
+      "event_id": "1"
+    },
+    {
+      "name": "Sabrina Ellis",
+      "title": "Pinterest | Chief Product Officer",
+      "description": "Sabrina is the Chief Product Officer at Pinterest, where she oversees the Product Management, Product Marketing, and Design teams responsible for building an innovative and inclusive product experience for Pinterest’s expansive global community. Prior to Pinterest, Sabrina was at Google for 12+ years as Vice President of Product Management working on Android and Pixel.",
+      "topics": "SOCIAL | E-COMMERCE",
+      "day": "05/07/2024",
+      "image": "/images/Sabrina_Ellis.png",
+      "id": 7,
+      "event_id": "4, 6"
+    },
+    {
+      "name": "Christian Lindner",
+      "title": "FDP | Federal Minister of Finance | Speaker",
+      "topics": "Finance",
+      "description": "Christian Lindner is the Federal Minister of Finance and party leader of German political party FDP. Although only 45 years old, Lindner has been in politics for over 20 years. In 2009, Lindner became General Secretary of the FDP, and in 2012 he was elected Chairman of the Party. In 2017, Lindner led the FDP into federal elections, where the party returned to the Bundestag with 10.7% of the vote. In the coalition talks after the elections, the FDP, together with the CDU and Bündnis 90/Die Grünen, formed the so-called #traffic light coalition,# which has been governing Germany since 2021. As Minister of Finance, Lindner oversees the Federal Ministry of Finance and its federal agencies.",
+      "day": "05/07/2024",
+      "image": "/images/Christian-Lindner.png",
+      "id": 8,
+      "event_id": "7, 12, 13"
+    },
+    {
+      "name": "Verena Pausder",
+      "title": "FC Viktoria Berlin | Co-Founder | Speaker",
+      "topics": "Startups",
+      "description": "Verena Pausder is an entrepreneur and author and co-initiator of the women's soccer project \"Viktoria Berlin\". With her Spiegel bestseller \"Das Neue Land,\" published in 2020, she tackles topics such as digitalization, new work, politics and climate protection. Together with entrepreneur and investor Lea-Sophie Cramer, Pausder hosts the podcast \"Fast & Curious.\" Through her private investment fund, Pausder is involved in ventures funds such as Project-A, Lakestar and Cherry Ventures, as well as companies such as Wise, Knowunity and Simpleclub.",
+      "day": "05/08/2024",
+      "image": "/images/Verena-Pausder.png",
+      "id": 11,
+      "event_id": "2"
+    },
+    {
+      "name": "Scott Galloway",
+      "title": "Professor NYU Stern School of Business | Professor & Author | Speaker",
+      "topics": "Consulting & Agency | Adtech | Content",
+      "description": "Scott Galloway is Professor of Marketing at NYU’s Stern School of Business and a serial entrepreneur. He was named one of the world’s best business professors by Poets & Quants. Scott has founded nine companies, including Prophet, RedEnvelope, L2, and Section School, where he also teaches. He is the New York Times–bestselling author of The Four, The Algebra of Happiness, Post Corona and Adrift: America in 100 Charts. Scott has served on the boards of directors of The New York Times Company, Urban Outfitters, Berkeley’s Haas School of Business, Panera Bread, and Ledger. Across his Prof G and Pivot podcasts, No Mercy / No Malice newsletter, and his YouTube channel, Scott reaches millions. He has won multiple Webby and Best Podcast awards, and his books have been translated into 28 languages.",
+      "day": "05/08/2024",
+      "image": "/images/scott-galloway.webp",
+      "id": 12,
+      "event_id": "3, 4"
+    },
+    {
+      "name": "Lea-Sophie Cramer",
+      "title": "Ten More In | Entrepreneur, Investor & Podcaster | Speaker",
+      "topics": "Startups",
+      "description": "Lea-Sophie Cramer is an entrepreneur, investor and podcaster. As such, she is one of the leading voices for modern leadership, entrepreneurship and digital innovation in Germany. In 2013, she founded Amorelie (which she has since sold to ProSiebenSat1) and built one of the leading eCommerce companies and digital brands for intimacy in Europe. In 2022, she founded her second company Ten More In, which is a leadership platform for women where she offers digital, modern leadership coaching for women. Since 2023, Lea-Sophie Cramer has been an Industry Advisor to KKR, a leading global investor, and was appointed to the Board of Directors of Wella Company. Together with her co-host Verena Pausder, the native of Berlin and mother of two hosts the podcast \"FAST & CURIOUS,\" one of the largest business podcasts in Germany.",
+      "day": "05/08/2024",
+      "image": "/images/Lea-Sophie-Cramer.png",
+      "id": 13,
+      "event_id": "5"
+    },
+    {
+      "name": "Jeff Koons",
+      "title": "Artist | Speaker",
+      "topics": "Culture",
+      "description": "Internationally recognized artist Jeff Koons (b. 1955) is widely known for his iconic sculptures Rabbit and Balloon Dog as well as his monumental floral works Puppy and Split-Rocker. Working with everyday objects, his work revolves around themes of self-acceptance and transcendence. Since his first solo exhibition in 1980, Koons’s work has been shown in major galleries and institutions throughout the world. His work was the subject of a major exhibition organized by the Whitney Museum of American Art in 2014, which traveled to the Centre Pompidou and Guggenheim Bilbao. Koons has received numerous awards and honors in recognition of his cultural achievements. Notably, President Chirac promoted Koons to Officier de l’Ordre National de la Légion d’Honneur and Koons was honored with the U.S. Department of State’s Medal of the Arts. Koons was the first Artist-in-Residence at Columbia University’s Mortimer B. Zuckerman Mind Brain Behavior Institute. Koons is a board member of The International Centre for Missing & Exploited Children and co-founded the Koons Family Institute for the purpose of combating global issues of child abduction and exploitation. Koons lives and works in New York City.",
+      "day": "05/08/2024",
+      "image": "/images/jeff-koons.webp",
+      "id": 14,
+      "event_id": "6, 16"
+    },
+    {
+      "name": "Taylor Lorenz",
+      "title": "The Washington Post | Tech Journalist | Speaker",
+      "topics": "Social | Culture | Influencer | Content",
+      "description": "Taylor Lorenz is the author of \"Extremely Online: The Untold Story of Fame, Influence, and Power on the Internet\", published in 2023 by Simon & Schuster. She is a technology columnist for The Washington Post's business section covering online culture and the content creator industry. She was previously a technology reporter for The New York Times business section, The Atlantic, and The Daily Beast. Her writing has appeared in New York Magazine, Rolling Stone, Outside Magazine, and more. She frequently appears on NBC, CNN, MSNBC, CBS, and the BBC. She was a 2019 Knight Visiting Nieman Fellow at Harvard University and is a former affiliate at Harvard's Berkman Klein Center for Internet and Society. Lorenz was named to Fortune's 40 Under 40 list of leaders in Media and Entertainment. Adweek included her in their Young Influentials Who Are Shaping Media, Marketing and Tech listing, stating that Lorenz “contextualizes the internet as we live it.” Town & Country named her to their New Creative Vanguards list of a rising generation of creatives, calling her “The Bob Woodward of the TikTok generation.” In 2023, Lorenz was named tech and media influencer of the year by the World Influencers & Bloggers Association.",
+      "day": "05/08/2024",
+      "image": "/images/Taylor_Lorenz.png",
+      "id": 15,
+      "event_id": "1, 4, 9, 11"
+    },
+    {
+      "name": "Jürgen Schmidhuber",
+      "title": "KAUST | Father of Modern AI, Director AI Initiative | Speaker",
+      "topics": "AI & Innovation",
+      "linkedin": "https://www.linkedin.com/in/jürgen-schmidhuber-39226872",
+      "description": "The New York Times headlined: \"When A.I. Matures, It May Call Jürgen Schmidhuber 'Dad'.\" He is often called the Father of Modern AI by the media. Since age 15, his main goal has been to build a self-improving Artificial Intelligence smarter than himself, then retire. His lab's deep learning artificial neural networks have revolutionised machine learning and A.I. By 2017, they were on over 3 billion smartphones, and used billions of times per day, for Facebook’s automatic translation, Google’s speech recognition, Google Translate, Apple’s Siri & QuickType, Amazon’s Alexa, etc. Generative AI is also based on his work: he introduced principles of artificial curiosity and generative adversarial networks (1990, now widely used), unnormalised linear Transformers (1991, the \"T\" in \"ChatGPT\" stands for \"Transformer\"), self-supervised pre-training for deep learning (1991, the \"P\" in \"ChatGPT\" stands for \"pre-trained”), and meta-learning machines that learn to learn (since 1987, now widely used). His lab also produced LSTM, the most cited AI of the 20th century, and the LSTM-inspired Highway Net, the first very deep feedforward net with hundreds of layers (ResNet, the most cited AI of the 21st century, is an open-gated Highway Net). In 2006-2010, he published the \"formal theory of fun and creativity.\" Elon Musk tweeted: \"Schmidhuber invented everything.\" He is recipient of numerous awards, Director of the AI Initiative at KAUST in KSA, Scientific Director of the Swiss AI Lab IDSIA, and Co-Founder & Chief Scientist of the company NNAISENSE. He is a frequent keynote speaker at major events, and advising various governments on A.I. strategies.",
+      "day": "05/08/2024",
+      "image": "/images/juergen-schmidhuber.webp",
+      "id": 16,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Hildegard Wortmann",
+      "image": "/images/hildegard-wortmann.png",
+      "title": "AUDI AG | Vorständin Marketing und Vertrieb | Speaker",
+      "topics": "Mobility",
+      "linkedin": "https://www.linkedin.com/in/hildegard-wortmann/",
+      "website": "https://www.audi.com",
+      "description": "The automotive industry is currently going through the largest industry-wide disruption in decades. It is evolving into a more sustainable and digitally connected sector to meet new customer demands and expectations. As a member of the Board of Management at AUDI AG and the Extended Group Management Board of the Volkswagen Group, Hildegard Wortmann is driving the transformation front and center with a focus on digitalization and the customer journey—and doing so globally. Audi is one of the world's leading premium car manufacturers, represented in more than 110 markets. With her many years of international experience in global corporations such as Unilever, the BMW Group, AUDI AG and the Volkswagen Group, Wortmann's goal is to shape tomorrow’s premium mobility space. To her, diversity is the fundamental prerequisite for innovation, not only meaning gender diversity, but also diversity of cultures, CVs and skillsets—throughout the industry.",
+      "day": "05/08/2024",
+      "id": 17,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Sascha Lobo",
+      "image": "/images/sascha-lobo.png",
+      "title": "Digital Entrepreneur, Author & Podcast host | Speaker",
+      "topics": "Brands | Social",
+      "description": "Sascha Lobo, born in 1975, is an author, keynote speaker, podcaster and internet entrepreneur. Since 2006, he has been explaining the pros and cons of digitization to the public, for example in the form of a weekly column on spiegel.de. For around 10 years, his educational focus has included the field of artificial intelligence with a focus on digital transformation. He lives with his wife and two children in Berlin and on the internet.",
+      "day": "05/08/2024",
+      "id": 18,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Tina Müller",
+      "image": "/images/tina-mueller.png",
+      "title": "CEO Weleda AG | CEO | Speaker",
+      "topics": "Brands | Social",
+      "description": "Even as CEO of Douglas, Tina Müller defined the term \"beauty\" much more broadly than a traditional perfumery did at the time. In her new role as CEO at the natural cosmetics company Weleda, she applies this understanding directly to products. In addition to natural cosmetics, the Swiss company also offers medicinal products. Müller now wants to take Weleda to the next level. Her CV speaks for itself: although her roots lie in the consumer goods industry, as CMO the manager managed to refresh the image of car manufacturer Opel (\"Umparken im Kopf\"). At Weleda, Müller wants to use the new #Focus_GrowthThatMatters strategy to modernize the company and enable sustainable growth at the same time. She also regularly demonstrates how marketing works on her own behalf: with more than 225,000 followers, she is one of the German voices with the widest reach on LinkedIn.",
+      "day": "05/07/2024",
+      "id": 19,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Lena Gercke",
+      "image": "/images/lena-gercke.png",
+      "title": "LeGer | Speaker",
+      "topics": "Influencer | Social | Fashion | Brands | E-Commerce",
+      "description": "Model, entrepreneur and investor, Lena Gercke is one of the most-famous faces in Germany. She got her start as the winner of Germany's first-ever \"Germany’s Next Top Model,\" which she then leveraged into numerous television and modeling jobs. Today, she's the face of several international brands, including adidas, L’Oréal Paris and BMW. Furthermore, she's founder and CEO of \"LeGer by Lena Gercke,\" the most-successful personal brand in Germany.",
+      "day": "05/07/2024",
+      "id": 21,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Imran Amed",
+      "image": "/images/imran-amed.jpg",
+      "title": "The Business of Fashion | Founder, CEO & Editor-in-Chief | Speaker",
+      "topics": "Publishing | Culture",
+      "instagram": "https://www.instagram.com/imranamed",
+      "website": "https://www.businessoffashion.com/",
+      "description": "Imran Amed is founder, CEO and editor-in-chief of The Business of Fashion, the disruptive modern media company recognised around the world for its authoritative, analytical and global perspective on the USD 3t fashion, luxury and beauty industries.\n\nThe Business of Fashion is an indispensable business tool and learning resource for executives, designers, investors and students, serving 100,000 paying members in 136 countries. BoF combines independent, agenda-setting journalism with practical business advice, online learning, career-building tools and immersive events to power positive change in fashion and the wider world.\n\nImran has an MBA from Harvard Business School, a B.Com from McGill University and an honorary doctorate from Central Saint Martins College of Art & Design. Previously, he was a management consultant at McKinsey & Co.",
+      "day": "05/07/2024",
+      "id": 22,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Alex Blania",
+      "image": "/images/alex-blania.png",
+      "title": "Wunder Mobility | Co-CEO & Co-Founder | Speaker",
+      "topics": "Mobility | Social",
+      "description": "Alex Blania is co-CEO & co-founder of Wunder Mobility, a mobility tech company that provides carpooling and scooter-sharing services. The company works with mobility operators in 150+ cities worldwide and provides software solutions to help mobility businesses expand and scale. Before starting Wunder Mobility, Alex worked at Rocket Internet and founded several other tech companies. He has a background in economics and business administration.",
+      "day": "05/07/2024",
+      "id": 23,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Ann-Katrin Schmitz",
+      "title": "Novalanalove, Baby Got Business | Founder & CEO | Speaker",
+      "topics": "Social | Influencer",
+      "image": "/images/ann-katrin-schmitz.png",
+      "linkedin": "https://www.linkedin.com/in/ann-katrin-schmitz/",
+      "instagram": "https://www.instagram.com/himbeersahnetorte/",
+      "website": "https://babygotbusiness.com/",
+      "description": "Ann-Kathrin Schmitz is the person brands in Germany turn to for support with their social media efforts—especially when influencers are involved. In 2014, she co-founded fashion blog Novalanalove with her fellow student Farina Opoku. Under Schmitz’ management, Novalanalove evolved into first an influencer brand and then to a lifestyle brand. Today, the 32-year-old not only supports large companies and brands, but has evolved into a personal brand in her own right thanks to her business podcast “Baby Got Business.”",
+      "day": "05/07/2024",
+      "id": 24,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Philipp Freise",
+      "title": "KKR | Partner & Co-Head of European Private Equity | Speaker",
+      "topics": "Finance",
+      "image": "/images/philipp-freise.png",
+      "description": "You’d be hard pressed to find another German with the same volume of activity in the finance space as Philipp Freise. He joined KKR in 2001 and is now one of two European heads of private equity at the American investment company. In the more than 20 years that Freise has been with KKR, he has been responsible for various deals, exclusively involving media companies or media rights, such as the television group ProsiebenSat.1, Bertelsmann's music rights subsidiary BMG Rights Management and Axel Springer.",
+      "day": "05/07/2024",
+      "id": 25,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Léa Steinacker",
+      "title": "Ada | Co-Founder & Executive Chairwoman | Speaker",
+      "topics": "AI & Innovation",
+      "image": "/images/lea-steinacker.png",
+      "description": "Léa Steinacker is co-founder and Chief Innovation Officer of the digital training platform \"Ada.\"",
+      "day": "05/07/2024",
+      "id": 26,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Bastian Schweinsteiger",
+      "title": "ARD Soccer Expert & Soccer World Champion | Speaker",
+      "topics": "Sports & Gaming",
+      "image": "/images/bastian-schweinsteiger.png",
+      "linkedin": "https://www.linkedin.com/in/bastianschweinsteiger/",
+      "facebook": "https://www.facebook.com/BastianSchweinsteiger/?locale=de_DE",
+      "instagram": "https://www.instagram.com/bastianschweinsteiger/?hl=de",
+      "twitter": "https://twitter.com/BSchweinsteiger",
+      "description": "Bastian Schweinsteiger, born on 1 August 1984 in Kolbermoor, is a former German professional footballer. He played successfully for FC Bayern Munich for a total of 17 years. He won numerous titles with FC Bayern, including 8 times German Champion, 7 times German Cup Winner and 2 times German Supercup Winner. The UEFA Champions League victory and the first triple in the club's history remain unforgotten. In 2015, he sought a new challenge at Manchester United, where he won the FA Cup in 2016. In 2017, Bastian moved to Chicago Fire, where he took part in the MLS All-Star Game twice. He played for the German national team from 2004 to 2016 and became world champion with the team in Brazil in 2014. After the 2014 World Cup, Bastian became captain of the German national team. In 2020, he became a football expert for ARD.",
+      "day": "05/07/2024",
+      "id": 27,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Palina Rojinski",
+      "title": "Podcaster, Host & Actress | Speaker",
+      "topics": "Culture | Fashion | Influencer",
+      "image": "/images/palina-rojinski.webp",
+      "instagram": "https://www.instagram.com/palinski/",
+      "description": "Palina Rojinski is a German TV personality and presenter. In her 15-year career, she has been on MTV and Viva, been a soccer reporter for ARD and made countless cameos and starring appearances on German TV. She's also a successful podcaster, full-length feature film actress and author.",
+      "day": "05/07/2024",
+      "id": 28,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Carsten Koerl",
+      "title": "Sportradar | Founder & CEO | Speaker",
+      "topics": "Sports & Gaming | Data & Analytics",
+      "image": "/images/carsten-koerl.png",
+      "linkedin": "https://www.linkedin.com/in/carsten-koerl-639845121/",
+      "website": "https://sportradar.com/",
+      "description": "If there was ever a perfect example of a hidden champion, it's Carsten Koerl. Born in Bavaria, he got his start getting what's now online sports betting platform Bwin up and running in 1997, before founding Sportradar and creating a global sports data empire in 2001. From FIFA to the NBA, Sportradar is the official data partner of the biggest players in the sports industry and in turn makes its troves of data available to sports media and betting providers. In total, Sportradar covers almost one million events in over 90 sports every year from its HQ in St. Gallen, Switzerland. For his part, Koerl has primarily remained out of the spotlight during his entrepreneurial career. However, those days of anonymity came to an end by September 2021, when he and Sportradar made waves by having NBA GOAT Michael Jordan headline the company's IPO on Nasdaq. Jordan is among some very prominent investors in Sportradar, including Chelsea owner Todd Boehly and now former owner of the Dallas Mavericks. At the time of its IPO, the valuation of Sportsradar was a staggering USD 4.7b—and CEO Koerl heads a team of nearly 4000 in 20 different countries.",
+      "day": "05/07/2024",
+      "id": 29,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Kerstin Erbe",
+      "title": "dm | Managing Director | Speaker",
+      "topics": "Purpose & Sustainability",
+      "image": "/images/kerstin-erbe.webp",
+      "description": "As Managing Director at the drugstore retailer dm, Kerstin Erbe is responsible for product management. A member of the company's eight-person Management Board, Erbe is also responsible for more than 260 drugstores in Hesse, as well as parts of Lower Saxony and North Rhine-Westphalia. In total, the company has more than 2,000 stores across Germany with more than 2 million visitors each day. Before joining dm in 2016, she worked for the consumer goods company Colgate-Palmolive after studying business administration.",
+      "day": "05/07/2024",
+      "id": 30,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Oliver Bierhoff",
+      "title": "Entrepreneur Global Sports Business | Speaker",
+      "topics": "Sports & Gaming",
+      "image": "/images/oliver-bierhoff.webp",
+      "description": "Oliver Bierhoff was a star soccer player for both club and country, but will always go down as the scorer of the first-ever Golden Goal at Euro ’96 in legendary Wembley Stadium. After calling time on his active playing career, he began his career off-the-pitch with DFB (German Football Association). Until stepping down in late 2022, Bierhoff was active as the Managing Director of National Teams and the Academy for the world’s largest football federation. He went on to build up the team of the National Training Centre in Frankfurt with academy director Joti Chatzialexiou. Since April 2022, the FIFA World Cup winner has served as CEO of the online platform Your Global Marketplace.",
+      "day": "05/07/2024",
+      "id": 31,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Bonnie Strange",
+      "image": "/images/bonnie-strange.png",
+      "title": "Influencer | Speaker",
+      "topics": "Fashion & Influencer",
+      "instagram": "https://www.instagram.com/bonniestrange/?hl=de",
+      "description": "Bonnie Strange has undergone a transformation in the past few years. The one-time wild child model now a mother and has given her look a makeover, taking on a more 70s-inspired style. And Bonnie is still a success on Instagram and even sells merch with quotes and pics. She’s also active on the About You app as a style role model.",
+      "day": "05/07/2024",
+      "id": 34,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Frederic Knaudt",
+      "image": "/images/frederic-knaudt.png",
+      "title": "Picnic | Co-Founder Picnic Germany | Speaker",
+      "topics": "E-Commerce | Startups",
+      "description": "Frederic Knaudt got his first taste of the food sector launching a meal-kit start-up. Since 2017, he has built up the German business of Dutch unicorn Picnic. He began his career at the Berlin start-up factory Rocket Internet, where he worked for cosmetics start-up Glossybox, among others. Then came the aforementioned meal-kit start-up Kochzauber, which was financed by venture capitalist Project A. At Picnic, Frederic Knaudt is now building an online supermarket where food is delivered to customers via e-vans. After the business initially launched in NRW, Picnic started its Germany-wide expansion in 2023.",
+      "day": "05/07/2024",
+      "id": 35,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Dagmara Kazakov",
+      "image": "/images/dagmara-kazakov.png",
+      "title": "Dagi Bee | Creator & Entrepreneur | Speaker",
+      "topics": "Influencer | Video & Streaming | Social",
+      "linkedin": "https://www.linkedin.com/in/dagmara-kazakov-2ba341196/",
+      "instagram": "https://www.instagram.com/dagibee/?hl=de",
+      "website": "https://www.youtube.com/@dagibee",
+      "description": "DagiBee is one of the biggest German-speaking influencers. She’s also an inspiring example of not only social media success, but also how to leverage that fame and build flourishing brands as an entrepreneur. While her community is almost twelve million strong online, her influence extends beyond YouTube, Instagram, TikTok, and co. In addition to the well-known make-up brand 'Beetique,' her music label '23HOURS,' and her own fashion brand 'CASA MARA,' she is ushering in a revolution in the oat milk industry with her latest brand OWIES.",
+      "day": "05/07/2024",
+      "id": 36,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Felix Neureuther",
+      "image": "/images/felix-neureuther.png",
+      "title": "ARD Sports Expert & World Cup Winner | Speaker",
+      "topics": "Sports & Gaming",
+      "instagram": "https://www.instagram.com/felix_neureuther/?hl=de",
+      "website": "https://felix-neureuther.de/",
+      "description": "Felix Neureuther is the most successful World Cup ski racer in German history. He became youth world champion at the age of 14 and competed in his first World Cup race at the age of 18, winning 15 of them, two of which were the famous slalom on the Ganslernhang in Kitzbühel. Felix won five world championship medals and took part in the Olympic Games three times. He ended his skiing career in 2019 after a career spanning 18 years, which were also marked by injuries. In 2022, he founded the 'Felix Neureuther Foundation,' which aims to promote movement in children and compensate for deficits in brain development through special training programs. Felix also takes a critical look at sustainability and issues surrounding international sport. He has shed light on this topic in three documentaries on ARD. As a sports expert, he will be presenting the 2024 Olympic Games on ARD, among other things.",
+      "day": "05/07/2024",
+      "id": 37,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Aileen Puhlmann",
+      "image": "/images/aileen-puhlmann.png",
+      "title": "Lemonaid & ChariTea e.V. | Managing Director | Speaker",
+      "topics": "Purpose & Sustainability | Equality",
+      "linkedin": "https://www.linkedin.com/in/aileen-puhlmann-63707937/",
+      "description": "Aileen Puhlmann studied development policy with a focus on Africa in London. She then moved to South Africa for seven years, where she worked for GIZ (German development agency) in local economic development. She is now a full-time director of Lemonaid & Charitea e.V. Aileen also founded 'Community Kids,' a parent-child initiative for parents of color, in Hamburg and addresses the realities of living in Germany as a person of color, single mother, and social inequality in a variety of ways in articles, podcasts and as a speaker. At the OMR Festival, she will speak on the 5050 Stage in a join,t panel with Future Female Africa.",
+      "day": "05/07/2024",
+      "id": 38,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Philipp Schröder",
+      "image": "/images/philipp-schroeder.webp",
+      "title": "1Komma5° | Founder & CEO | Speaker",
+      "topics": "Purpose & Sustainability | Startups",
+      "description": "Philipp Schröder has rapidly turned the start-up 1Komma5°, founded in 2021, into a unicorn and raised hundreds of millions of US dollars in capital from investors. The cleantech company brings clean energy to private households, from heat pumps to solar systems, and now also offers software-controlled energy management. The start-up has also acquired specialist companies from the trade sector. Before founding 1Komma5°, Philipp Schröder managed the battery storage manufacturer Sonnen and was head of Germany at the e-car manufacturer Tesla.",
+      "day": "05/07/2024",
+      "id": 39,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Mrs. Bella",
+      "image": "/images/mrs-bella.webp",
+      "title": "Content Creator & Entrepreneur | Speaker",
+      "topics": "Influencer | Social",
+      "description": "Firmly among the top tier of beauty content creators in Germany, Mrs. Bella is a make-up artist and hair stylist by trade, but no stranger to the content game, having uploaded her first video in 2014 and regularly publishing hair and makeup tutorials, vlogs, and Q&As ever since. Her Instagram profile is followed by more than 2.6 million fans. She collaborates with well-known brands and has also leveraged her reach to launch products of her own in Germany. Hailing from Düsseldorf, she published her first book in 2018 titled 'Contour & Confidence,' which became a Spiegel Bestseller.",
+      "day": "05/07/2024",
+      "id": 40,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Gregor Gysi",
+      "image": "/images/gregor-gysi.png",
+      "title": "Die Linke | Politician | Speaker",
+      "topics": "Podcast",
+      "description": "Gregor Gysi is probably the best-known male face of Die Linke, a German political party, and has a seat in the German Bundestag as a directly elected member of parliament for the party. He has played a key role in building up the party since its foundation, including as parliamentary group leader. He had also previously built up the Party of Democratic Socialism after the fall of the Berlin Wall and tried to establish it in the West German states. In addition to his work as a politician, Gysi also works as a lawyer and podcaster. Together with former minister Karl-Theodor zu Guttenberg, he regularly discusses major current political issues in the successful show 'Gysi gegen Guttenberg' (Gysi v. Guttenberg).",
+      "day": "05/07/2024",
+      "id": 41,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Miriam Meckel",
+      "image": "/images/miriam-meckel.webp",
+      "title": "Ada | Co-Founder & Executive Chairwoman | Speaker",
+      "topics": "AI & Innovation",
+      "description": "Miriam Meckel is the founding publisher of 'Ada,' a digital platform for journalism and further education of the Handelsblatt Media Group. She was previously editor-in-chief and also publisher of Wirtschaftswoche, which is also published by the publishing house, until 2017. Her appointment attracted a lot of attention at the time. Miriam Meckel had actually started her career in academia. At the age of just 31, she was even appointed the youngest professor in Germany at the time. She is still teaching today and is Professor of Communication Management at the University of St. Gallen.",
+      "day": "05/07/2024",
+      "id": 42,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Karl-Theodor zu Guttenberg",
+      "image": "/images/karl-theodor-zu-guttenberg.webp",
+      "title": "Former Minister, Author & Podcaster | Speaker",
+      "topics": "Podcast",
+      "description": "Karl-Theodor zu Guttenberg is an entrepreneur, author, filmmaker, and podcaster. However, he is most renowned for his early political career, where he rose rapidly from a member of the Kulmbach district council to the head of the Federal Ministry of Economics and subsequently the Ministry of Defense in the early 2000s. In 2011, Guttenberg withdrew from politics, moved to the USA, and engaged in investment and consultancy roles. He has since returned to public life as a TV presenter, recently published the book '3 Sekunden,' and hosts the popular political talk podcast 'Gysi gegen Guttenberg' (Gysi v. Guttenberg), which consistently performs well in podcast charts.",
+      "day": "05/07/2024",
+      "id": 43,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Andrea Petkovic",
+      "image": "/images/andrea-petkovic.png",
+      "title": "Former Tennis Pro, TV Presenter & Author | Speaker",
+      "topics": "Sports & Gaming",
+      "description": "Andrea Petković, born in Tuzla/Bosnia in 1987, moved to Darmstadt with her family at the age of six months. She started playing tennis at the age of six and achieved a top ten world ranking in 2011 and 2014. Her last tournament was the US Open in 2022. As an author, she gained attention in 2018 with her columns in SZ-Magazin. Her debut book, 'Zwischen Ruhm und Ehre liegt die Nacht,' was published in 2020, and she writes columns for DIE ZEIT and Sports Illustrated. Since 2023, she has been working as an analyst and expert for Tennis Channel in the USA. Andrea Petković divides her time between New York and Darmstadt.",
+      "day": "05/07/2024",
+      "id": 44,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Matt Navarra",
+      "image": "/images/matt-navarra.png",
+      "title": "Social Media Expert | Speaker",
+      "topics": "Social",
+      "linkedin": "https://www.linkedin.com/in/mattnavarra/",
+      "facebook": "https://www.facebook.com/matthewnavarra/",
+      "instagram": "https://www.instagram.com/mattnavarra/",
+      "website": "https://www.mattnavarra.com/",
+      "description": "Matt Navarra is one of Europe's most well-known and in-demand social media consultants. With over 20+ years industry experience, Matt has worked with some of the world's biggest brands, including Google, BBC, United Nations, International Red Cross, U.S. Food and Drug Administration (FDA) and Pinterest, among others. Previously, Matt was Director of Social Media at The Next Web, and spent time as Digital Communications Advisor to the UK Government. In 2018, Matt founded 'Geekout,' an ever-expanding community and suite of resources for social media professionals that include the eponymously named Facebook group (35,000+ members), podcast (50,000+ downloads) and weekly newsletter (30,000+ subscribers). Matt is frequently invited to appear on BBC News, Sky News, NBC Europe, CNN and other news.",
+      "day": "05/07/2024",
+      "id": 45,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Robert Marc Lehmann",
+      "image": "/images/robert-marc-lehmann.webp",
+      "title": "Mission Erde e.V. | Marine descriptionlogist, Creator & Conservationist | Speaker",
+      "topics": "Purpose & Sustainability | Video & Streaming",
+      "instagram": "https://www.instagram.com/robertmarclehmann/?hl=de",
+      "website": "https://www.robertmarclehmann.com/de",
+      "description": "Shark diver, explorer, animal rescuer: Robert Marc Lehmann travels to the most remote places on the planet, where he explores and documents its beauty with the mission of raising awareness for the Earth’s fragility. In 2015, Lehmann was named National Geographic Photographer of the Year. From these adventurous journeys, Lehmann captures the imagination of people in our area code with stories from far-off places. He presents these serious topics in a humorous and refreshingly informative 'edutainment' style, without any finger-wagging. His contributions have notched millions of views across his social media profiles.",
+      "day": "05/07/2024",
+      "id": 46,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Delia Lachance",
+      "image": "/images/delia-lachance.png",
+      "title": "Westwing | Founder & Chief Creative Officer | Speaker",
+      "topics": "E-Commerce | Startups",
+      "description": "Delia Lachance is one of the most successful female entrepreneurs in Germany. In 2011, she founded the premium home and living company WESTWING, which generated a turnover of EUR 431m in the 2022 financial year. Together with her team, she inspires style-conscious people throughout Europe every day. Lachance has been Chief Creative Officer since the company was founded 13 years ago and has become a pioneer of female entrepreneurship. Lachance made history in 2018 when she rang the bell for Westwing's IPO at the Frankfurt Stock Exchange. The mother of two regularly provides insights into entrepreneurship, her role as a mother and the challenges of a constantly growing e-commerce company. She also invests her time and creative ideas in the products of the Westwing Collection own brand launched in 2019, which reached a record 48% of Group sales in the third quarter of 2023. In addition to her professional activities, Delia Lachance is committed to the topic of female leadership, hosts the internal discussion format 'WingWomen,' where she invites inspiring women to share their experiences with her team.",
+      "day": "05/07/2024",
+      "id": 47,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Bryan Johnson",
+      "image": "/images/bryan-johnson.png",
+      "title": "Blueprint, Kernel & OS Fund | Founder & CEO | Speaker",
+      "topics": "AI & Innovation",
+      "linkedin": "https://www.linkedin.com/in/bryanrjohnson/",
+      "facebook": "https://www.facebook.com/people/Bryan-Johnson/100089952947799/",
+      "instagram": "https://www.instagram.com/bryanjohnson_/",
+      "description": "Dubbed the 'world’s most measured human,' Bryan Johnson is a longevity freak who puts his money—and 111 pills every day—where his mouth is. Why? To channel his inner Ponce de Leon and break the spell of aging. He calls the mission 'Project Blueprint,' under the aegis of which he has published his measurements and vitals since 2021. Soon, he’ll be taking his blueprint public and offering the 'Blueprint Startet Kit.' Johnson was previously active as an entrepreneur and was best-known the founder of Venmo, which he sold to Paypal in 2013 for USD 800m. In addition to Blueprint, Johnson founded neuroscience company Kernel and the OS Fund, through which he has invested over USD 100m in science-based startups—current value: north of USD 6b. At OMR24, he’ll be talking with us via satellite—long trips across the pond do not jive with his meticulously planned daily routine.",
+      "day": "05/07/2024",
+      "id": 48,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Bettina Schausten",
+      "image": "/images/bettina-schausten.png",
+      "title": "Zweites Deutsches Fernsehen (ZDF) | Chefredakteurin | Speaker",
+      "topics": "Content | Video & Streaming | Programmatic | Publishing",
+      "website": "https://zdf.de",
+      "description": "Bettina Schausten is the editor-in-chief at ZDF. From 1999 to 2002, she was the head and presenter of the ZDF-Morgenmagazin. In 2003, she took over as head of the main editorial office for domestic, societal, and educational policy, moderated the Politbarometer, and the ZDF special broadcasts. Since then, she has also been the face of ZDF's election broadcasts. From 2010 to 2019, she headed the ZDF capital studio in Berlin, hosting Berlin direkt and the ZDF summer interviews. From 2019 to 2022, Bettina Schausten served as deputy editor-in-chief of ZDF and head of the main editorial office for current affairs. There, among other things, she drove the expansion of the digital news offering ZDFheute.",
+      "day": "05/07/2024",
+      "id": 49,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Janna Ensthaler",
+      "image": "/images/janna-ensthaler.png",
+      "title": "Green Generation Fund | Partner | Speaker",
+      "topics": "Finance | Startups",
+      "description": "Janna Ensthaler is an entrepreneur and investor. In 2021, together with Manon Sarah Littek, she founded the Green Generation Fund, a EUR 100m venture capital fund focusing on eco and foodtech start-ups. Since April 2023, she has also been an investor in the TV show 'Die Höhle der Löwen' (The Shark Tank) on Vox. As a founder, she built the cosmetics startup Glossybox and the corporate event platform Event Inc. Manager Magazin ranks her among the 100 most influential women in business in Germany.",
+      "day": "05/07/2024",
+      "id": 50,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Florian Heinemann",
+      "image": "/images/florian-heinemann.png",
+      "title": "Project A | General Partner | Speaker",
+      "topics": "Startups | Finance | E-Commerce",
+      "description": "A couple of breaks in the other direction and it's very possible that Florian Heinemann would donning a cardigan and plying his trade as a university prof. As things stand, Heinemann is one of Germany's most-prominent start-up investors thanks to his VC firm Project. He founded book marketplace Justbooks and then sold it to his Canadian competitors. As a business angel, he was an early investor in hotel search engine Trivago and had an influential role in the development of eCommerce unicorn Zalando via startup incubator Rocket Internet. In 2012, he co-founded Project A together with partners; its portfolio includes startups such as Trade Republic, Sennder and Spryker, among others.",
+      "day": "05/07/2024",
+      "id": 51,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Barbara Schöneberger",
+      "image": "/images/barbara-schoeneberger.png",
+      "title": "Host, Entertainer & Podcaster | Speaker",
+      "topics": "Podcast",
+      "instagram": "https://www.instagram.com/barbara.schoeneberger/",
+      "website": "https://www.barbaradio.de/",
+      "description": "Barbara Schöneberger is one of Germany's most-popular entertainers and recently launched a successful podcast. She has won the German Television and Comedy Award several times, as well as the Horizont Award for a lifetime achievment. In 2018, Schöneberger launched the new digital audio platform 'barba radio,' followed a year later by her successful podcast 'Mit den Waffeln einer Frau' (With a Woman's Waffles). The format appears weekly and, at present, has over 300 episodes, she provides her listeners with a celebrity guest and regularly lands at the top of the podcast charts.",
+      "day": "05/07/2024",
+      "id": 52,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Bausa",
+      "image": "/images/bausa.png",
+      "title": "Two Sides | Managing Director & Musician | Speaker",
+      "topics": "Culture",
+      "instagram": "https://www.instagram.com/bausashaus/",
+      "description": "Countless festival stages, completely sold-out tours, chart toppers. His single 'Was du Liebe nennst' catapulted the rapper from southern Germany to the top of the charts. Bausa is incredibly diverse musically, but can always be recognized by his unmistakable, scratchy voice. Right at home, no matter the stage or the format—from mixtapes to guest tracks, everything Bausa touches turns to gold. He has also been managing director of the Berlin music label Two Sides since 2017.",
+      "day": "05/07/2024",
+      "id": 53,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Kati Ernst",
+      "image": "/images/kati-ernst.png",
+      "title": "ooia | Co-Founder & CEO | Speaker",
+      "topics": "E-Commerce | Startups",
+      "description": "Dr. Kati Ernst is the co-founder and CEO of ooia, which she founded together with Kristine Zeller in 2018. With ooia, period underwear was established in Germany and they want to make sustainable period care easily accessible to all people. At ooia, Kati Ernst is responsible for the topics of marketing and communication and represents ooia in public.",
+      "day": "05/07/2024",
+      "id": 54,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Alexis Hoopes",
+      "image": "/images/alexis-hoopes.png",
+      "title": "Mattel, Inc. | Vice President of E-Commerce | Speaker",
+      "topics": "E-Commerce | Brands",
+      "linkedin": "https://www.linkedin.com/in/alexis-hoopes-2295451/",
+      "website": "https://corporate.mattel.com/",
+      "description": "Alexis Hoopes is Vice President of E-commerce for Mattel. She joined Mattel in 2020. In her role, Ms. Hoopes is responsible for driving forward Mattel’s global direct-to-consumer (DTC) strategy, deepening Mattel’s connection with consumers, and growing consumer loyalty for Mattel’s brands. Ms. Hoopes spearheaded the launch of two new digital platforms, MattelCreations.com and Shop.Mattel.com, which serve and engage existing segments of shoppers, from personal collectors to consumers shopping for kids, as well as new audiences. Ms. Hoopes has over a decade of experience as a retail executive and has a proven track record of developing and leading successful e-commerce, strategy, financial, and merchandise planning teams. Prior to joining Mattel, Ms. Hoopes spent 14 years at Nordstrom, most recently serving as Vice President, Inventory Planning and Transformation. During her time at Nordstrom, Ms. Hoopes launched and scaled multiple e-commerce businesses, and led the merchandising strategy and execution of strategic growth initiatives. Earlier in her career, Ms. Hoopes was a management consultant at Deloitte Consulting and spent a year as a Fulbright Fellow in Mexico City with United Way. Ms. Hoopes received her bachelor’s degree in Economics from Whitman College and an MBA from the Tuck School of Business at Dartmouth.",
+      "day": "05/07/2024",
+      "id": 55,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Paul Ripke",
+      "image": "/images/paul-ripke.webp",
+      "title": "AWFNR – Der Paul Ripke Podcast | Photographer, Content Creator, Digital Storyteller & Podcaster | Speaker",
+      "topics": "Culture | Podcast | Social",
+      "instagram": "https://www.instagram.com/paulripke/",
+      "description": "It's easier to list what Paul Ripke doesn't do. We know him as a successful photographer and jack-of-all-trades; in the podcast world, he's among those who have been successfully telling stories for years, not only helping advertisers reach audiences but also providing them with reach through host-read ads.",
+      "day": "05/07/2024",
+      "id": 56,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Melanie Zimmermann",
+      "image": "/images/melanie-zimmermann.png",
+      "title": "Criteo | General Manager, Global Retail Media | Speaker",
+      "topics": "E-Commerce | Adtech",
+      "description": "Melanie Zimmermann joined Criteo as General Manager, Global Retail Media in January 2024. In this role, she is responsible for further building and scaling Criteo’s retail media business and developing its sales strategy worldwide to better support evolving client needs and solidify Criteo’s leading position in commerce media. Melanie came to Criteo from Macy’s, where she successfully built the company’s retail media network, most recently as VP, Head of Macy’s Media Network. Melanie started her career in consulting with Bain & Company in Europe before joining Macy’s in 2013.",
+      "day": "05/07/2024",
+      "id": 57,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Kai Gniffke",
+      "image": "/images/kai-gniffke.png",
+      "title": "Südwestrundfunk (SWR) | Chairman ARD & General Director Südwestrundfunk | Speaker",
+      "topics": "Publishing | Content | Video & Streaming",
+      "linkedin": "https://de.linkedin.com/in/kai-gniffke-7b67a4233",
+      "website": "https://www.swr.de/unternehmen/organisation/kai-gniffke-136.html",
+      "description": "After Kai Gniffke completed his studies in political science, sociology and public law with a doctorate in 1992, he worked as a reporter and later final editor for SWF television in Mainz and as a state political correspondent beginning in 1995. In 1999, he took over as head of the ARD-aktuell editorial team at SWR in Rhineland-Palatinate. From 2003 to 2005, he was second editor-in-chief of ARD-aktuell. From 2006 to 2019, as First Editor-in-Chief of ARD-aktuell, he was responsible for the Tagesschau, Tagesthemen and tagesschau.de, among others. In 2019, Mittweida University of Applied Sciences appointed Kai Gniffke as an honorary professor for \"Journalism in the Digital Transformation\". He has been Director General of Südwestrundfunk since September 2019 and Chairman of ARD in this role since January 2023.",
+      "day": "05/07/2024",
+      "id": 58,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Nina Julie Lepique",
+      "image": "/images/nina-julie-lepique.webp",
+      "title": "femtasy | Founder & CEO | Speaker",
+      "topics": "Purpose & Sustainability | Podcast | Startups",
+      "linkedin": "https://www.linkedin.com/in/ninajulie/",
+      "instagram": "https://www.instagram.com/femtasy_de/",
+      "website": "https://www.femtasy.com/de",
+      "description": "Nina Julie Lepique is CEO of femtasy and entrepreneur, having revolutionized the adult entertainment market by founding the world's first and largest streaming platform for female-centric audio erotica. femtasy is setting new standards in gender equality and female empowerment with its mission of 'Liberating Pleasure.' Just 30 years old, she was named as one of Forbes' 'Top 30 under 30' while only 26. Lepique and her team of 30 reach hundreds of thousands of women who use the platform across Europe—without any VC funding. Regarded as a thought leader for company culture and progressive management, she regularly publishes on Linkedin and is active as a keynote speaker and business angel.",
+      "day": "05/07/2024",
+      "id": 59,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Norbert Himmler",
+      "image": "/images/norbert-himmler.webp",
+      "title": "ZDF | Intendant | Speaker",
+      "topics": "AI & Innovation | Purpose & Sustainability | Content | Culture",
+      "description": "Norbert Himmler joined national German broadcaster ZDF in 1997 as a freelancer for news program 'heute'. A little over 25 years later, he is the head of the channel. Himmler, who holds a doctorate in political science, started out as a trainee, worked as an editor and reporter in current affairs, was a program planner, head of feature films and founder of ZDFneo before becoming program director of ZDF in 2012. A decade later, Himmler was elected Director General of ZDF. As a seasoned veteran of everything at ZDF, he is fully aware of the mounting challenges: an increasingly older audience, dwindling trust in public service media, growing financial pressure—to name just a few. His mission is to make ZDF fit for the future. At OMR24, ZDF Director General Norbert Himmler talks to OMR24 about how he is tackling this task, why he is sacrificing successful formats and what role online tools and AI play.",
+      "day": "05/07/2024",
+      "id": 60,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Anne Coghlan",
+      "image": "/images/anne-coghlan.png",
+      "title": "scope3 | Co-Founder & COO | Speaker",
+      "topics": "Purpose & Sustainability | Programmatic | Adtech",
+      "description": "Anne Coghlan is co-founder and COO at Scope3, the collaborative sustainability platform decarbonizing media and advertising. Named to AdAge’s 40 under 40, AdExchanger’s Top Women in Media and Tech, and #2 on PMW’s list of most influential media leaders, Anne’s work at Scope3 combines her passion for the planet with her expertise in building world-class products for the ad industry. A product leader in the advertising technology market, Anne has previously held senior product roles at AppNexus (re-branded as Xandr and recently acquired by Microsoft), where she was responsible for the strategy and commercialization of the industry’s first programmable DSP. Before co-founding Scope3, Anne was head of product at Waybridge, a company created to make the supply chain for raw materials more efficient, resilient, and sustainable. She was awarded the Drum’s 50 under 30 Women in Digital in 2018. Anne served as co-chair of the EMEA AppNexus Women’s Network, helping the leadership team drive the conversation on gender equality in the workplace through events, support and networking. She attended the University of Warwick where she earned a BSc in Mathematics, and UCL, where she gained a Masters in Philosophy. She lives in London with her husband, son and loves climbing when she finds the time.",
+      "day": "05/07/2024",
+      "id": 61,
+      "event_id": "1, 5, 9, 11"
+    },
+    {
+      "name": "Johannes Reck",
+      "image": "/images/johannes-reck.webp",
+      "title": "Getyourguide | Founder & CEO | Speaker",
+      "topics": "AI & Innovation | Startups | Brands | E-Commerce",
+      "description": "In Getyourguide, Johannes Reck is building the world's largest travel experience platform. The native of Germany's Rhineland initially studied biochemistry in Switzerland, investigating the effect of proteins in the brains of mice. But a trip to China during his studies changed everything. Without co-founder Tao Tao, Reck and the other travelers would have found it much more difficult to find their way around. Can't something be done? In the beginning, the idea was to build a platform on which interested people could offer their services as tourist guides. Today, almost 15 years after it was founded, it has become one of Europe's most valuable start-ups. Travel experiences all over the world can be booked via Getyourguide, with more than 100,000 activities now available. Reck serves as company CEO, navigating it through the coronavirus crisis, and recently it into the black. Moving forward, he seeks to leverage AI to continue scaling the business.",
+      "day": "05/07/2024",
+      "id": 62,
+      "event_id": "1, 5, 9, 11"
+    }
+  ],
+  "events": [
+    {
+      "event_title": "\"The biggest political challenge is prevision and provision\"",
+      "event_time": "10:00 AM-10:30 AM",
+      "event-date": "07.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 1,
+      "event_description": "Robert Habeck is the first member of the 'Greens' to be Federal Minister of Economic Affairs and Climate Action. In digitization, AI and the energy transformation, there are three major issues that Germany must master. On stage, Habeck will discuss the current state of affairs in Germany, what chances he sees for Germany and what needs to happen for Germany to remain relevant moving forward."
+    },
+    {
+      "event_title": "Opening & Bartalk",
+      "event_time": "10:30 AM-10:50 AM",
+      "event-date": "07.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 2,
+      "event_description": ""
+    },
+    {
+      "event_title": "Predictions 2024",
+      "event_time": "10:50 AM-11:20 AM",
+      "event-date": "07.05.2024",
+      "event-stage": "Conference",
+      "event_language": "English",
+      "event_id": 3,
+      "event_description": ""
+    },
+    {
+      "event_title": "MrBeast's AI revolution: Changing the creative game on YouTube",
+      "event_time": "11:20 AM-11:35 AM",
+      "event-date": "07.05.2024",
+      "event-stage": "Conference",
+      "event_language": "English",
+      "event_id": 4,
+      "event_description": "Discover the impact of AI on MrBeast, the largest YouTube creator globally with a community of over 250 million subscribers. Mateo Prince, MrBeast’s chief strategy officer, will share behind-the-scenes insights into harnessing the power of AI throughout their creative process. Join him in dialogue with Andreas Briese, country director for YouTube Germany, as they delve into strategies to unleash the full creative potential on YouTube."
+    },
+    {
+      "event_title": "From DIY to KidSuper World – The Outstanding Career of KidSuper",
+      "event_time": "11:35 AM-12:00 PM",
+      "event-date": "07.05.2024",
+      "event-stage": "Conference",
+      "event_language": "English",
+      "event_id": 5,
+      "event_description": ""
+    },
+    {
+      "event_title": "Sportradar – the global sports data empire",
+      "event_time": "12:00 PM-12:25 PM",
+      "event-date": "07.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 6,
+      "event_description": "From the mountains of Bavaria to an IPO with Michael Jordan on the NASDAQ, Carsten Koerl created a billion-dollar sports data empire in Sportradar. The world's biggest leagues, from FIFA to the NBA, trust Sportradar with their data. In a talk with sports business expert Philipp Klotz from Transform Sports, Koerl will provide a behind-the-scenes look at his data empire and how Sportradar intends to continue achieving growth moving forward."
+    },
+    {
+      "event_title": "Female Founders – Ask Us Anything",
+      "event_time": "12:25 PM-12:55 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 7,
+      "event_description": "From bootstrapping to IPOs, business angels to VC firms, early stage start-ups to strong growth, recruiting to quitting, work-life balance to burnouts, carrots and sticks to human leadership. From starting up childless to balancing work and family, from doing one thing right to portfolio play of many parallel topics, from founding on the drawing board to creative entrepreneur, from founding yourself to business angel… In this “Ask Us Anything” session you can ask all your questions about founding, investing, scaling, finding purpose and leading! Email them to redaktion@omr.com with the subject line “OMR24 Female Founders” by April 30."
+    },
+    {
+      "event_title": "Energy Break",
+      "event_time": "1:00 PM-2:30 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 8,
+      "event_description": ""
+    },
+    {
+      "event_title": "The Story of VEJA",
+      "event_time": "2:35 PM-3:00 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "English",
+      "event_id": 9,
+      "event_description": "The founder of sneaker brand Veja will discuss the brand's genesis, the extent and impact of sustainability in the footwear industry and how Veja has succeeded in a very crowded and extremely competitive market."
+    },
+    {
+      "event_title": "Age of AI - Preparing for the Great AI Transformation",
+      "event_time": "3:00 PM-3:15 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 10,
+      "event_description": ""
+    },
+    {
+      "event_title": "AI made in Germany? Can we be relevant players in AI?",
+      "event_time": "3:15 PM-4:00 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "English",
+      "event_id": 11,
+      "event_description": "One wants to ensure that Germany has a chance to be a relevant player in AI and compete with the US and China. The New York Times said of the other that we’ll one day refer to him as the father of modern AI. Aleph Alpha founder Jonas Andrulis and researcher Jürgen Schmidhuber are two of the leading players in the business of AI. In discussion with Handelsblatt reporter Larissa Holzki, the entrepreneur and AI pioneer will tackle key questions at the heart of the hype: What is modern AI? Is it really poised to change everything? Which role did and will Germany play in the development? Are algorithms really on the precipice of being superior to humans in many areas? And if so, what will these superhuman AI machines be capable of?"
+    },
+
+    {
+      "event_title": "Fireside Chat",
+      "event_time": "4:00 PM-4:40 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "English",
+      "event_id": 12,
+      "event_description": ""
+    },
+    {
+      "event_title": "How to connect people:",
+      "event_time": "4:40 PM-5:10 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 13,
+      "event_description": "How do we create spaces online where fair, constructive discourse can take place? Places where people like to spend time because they are not immediately overwhelmed by the next shitstorm? And what role can public broadcasters, which do not follow the logic of private sector-driven algorithms but are primarily committed to the common good, play in this? These are questions to which German public broadcaster ZDF is currently seeking answers together with international partners. Also as a counterweight to the major streaming players on the market. Because a ZDF that is financed by everyone also wants to be a ZDF for everyone. In an interview with Sascha Lobo, Norbert Himmler explains the digital strategies with which ZDF is launching into the future."
+    },
+    {
+      "event_title": "Experience the Power of Progress",
+      "event_time": "5:10 PM-5:35 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 14,
+      "event_description": ""
+    },
+    {
+      "event_title": "Live Forever? ",
+      "event-date": "08.05.2024",
+      "event_time": "5:35 PM-6:00 PM",
+      "event_language": "English",
+      "event_id": 15,
+      "event_description": ""
+    },
+    {
+      "event_title": "OMR Screenings: \"Player of Ibiza,\" from the people that brought you \"Die Discounter\"",
+      "event_time": "6:05 PM-6:50 PM",
+      "event-date": "08.05.2024",
+      "event-stage": "Conference",
+      "event_language": "German",
+      "event_id": 16,
+      "event_description": "'Die Discounter' (The Discounters) was a surprise hit in Germany. Now the makers are launching another comedy mockumentary, this time a five-parter called 'Player of Ibiza' for ARD in co-production with Pyjama Pictures and NDR. During the screening, the young comedians will talk about rule breaking as a matter of principle, digital guerrilla marketing and what you need to have for successful improv. Be there for the exclusive German premiere with the creators on the Conference Stage. Starting May 10, the series will be available for streaming in the ARD media library."
+    }
+  ]
+}
