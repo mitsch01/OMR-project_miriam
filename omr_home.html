@@ -21,7 +21,7 @@
           <nav>
             <ul>
               <li><a href="#">BLOG</a></li>
-              <li><a href="/omr_speakers.html">FESTIVAL</a></li>
+              <li><a href="#">FESTIVAL</a></li>
               <li><a href="#">PARTNERS</a></li>
               <li><a href="#">JOBS & HR</a></li>
             </ul>
@@ -74,28 +74,31 @@
 
   <main>
     <section class="teaser">
+      <video src="/images/OMR23_Website_Teaser_V2-720.mp4" autoplay muted loop></video>
       <div>
-        <video src="/images/OMR23_Website_Teaser_V2-720.mp4" autoplay muted loop></video>
-        <h1>#OMR
-          THE FESTIVAL
-          FOR THE DIGITAL
+        <h1>#OMR<br>
+          THE FESTIVAL<br>
+          FOR THE DIGITAL<br>
           UNIVERSE!</h1>
-        <h3>#omr25 - May 6 & 7, 2025
+        <h3>#omr25 - May 6 & 7, 2025<br>
           Hamburg Exhibition Center
         </h3>
       </div>
-
     </section>
+
     <section class="intro">
+      <div class="intro-text">
+        <h1>ABOUT THE FESTIVAL</h1>
+        <p>Information, inspiration and networking on all things digital business. From top international speakers
+          presenting on multiple stages and Masterclasses to a two-day trade fair, side events and Guided Tours, the OMR
+          Festival is a MUST for digital professionals.</p>
+      </div>
       <img src="/images/ashton-kutcher.jpg" alt="">
-      <h1>ABOUT THE FESTIVAL</h1>
-      <p>Information, inspiration and networking on all things digital business. From top international speakers
-        presenting on multiple stages and Masterclasses to a two-day trade fair, side events and Guided Tours, the OMR
-        Festival is a MUST for digital professionals.</p>
+
     </section>
     <section class="speaker-banner">
       <h2>SHOW ALL #OMR24 SPEAKERS</h2>
-      <button>SHOW ALL #OMR24 SPEAKERS ></button>
+      <a href="omr_speakers.html"><button>SHOW ALL #OMR24 SPEAKERS ></button></a>
     </section>
 
     <section class="highlights">
@@ -111,10 +114,8 @@
       </div>
     </section>
 
-
-
     <section class="concert-banner">
-      <div>
+      <div class="concert-container">
         <h2>LIVE IN CONCERT</h2>
         <h1>SISTAHH</h1>
         <a href="https://www.youtube.com/watch?v=o2AyOXDStwc" target="_blank">
@@ -125,52 +126,45 @@
 
     <section class="stages">
       <h2>STAGES AND FORMATS</h2>
-      <p>The OMR Festival features inspirational and unique content on the most-relevant digital marketing trends and
-        topics. You can expect two days full of keynotes, panels, talks, live concerts and more.</p>
-        <div class="stages-carousel">
-          <button class="prev-btn">❮</button>
-          <div class="carousel-container">
-            <div class="carousel-item" id="conference-stage">
-              <h3>Conference Stage</h3>
-              <p>Top industry actors and A-list celebrities from around the globe take Europe’s largest stage.</p>
-            </div>
-            <div class="carousel-item" id="red-stage">
-              <h3>Red Stage</h3>
-              <p>Innovative minds share insights and expertise on the future of marketing and technology – presented by Vodafone.</p>
-            </div>
-            <div class="carousel-item" id="blue-stage">
-              <h3>Blue Stage</h3>
-              <p>Part entertainment, part keynotes on marketing knowledge presented by extraordinary speakers.</p>
-            </div>
-            <div class="carousel-item" id="yellow-stage">
-              <h3>Yellow Stage</h3>
-              <p>Here, the spotlight is on technology, eCommerce, platforms and CRM with well-known speakers.</p>
-            </div>
+      <div class="stages-slider">
+        <button class="prev-btn">❮</button>
+        <div class="slider-container">
+          <div id="conference-stage" class="slider-item">
+            <h3>Conference Stage</h3>
+            <p>Top industry actors and A-list celebrities from around the globe take Europe’s largest stage.</p>
           </div>
-          <button class="next-btn">❯</button>
+          <div id="red-stage" class="slider-item">
+            <h3>Red Stage</h3>
+            <p>Innovative minds share insights and expertise on the future of marketing and technology – presented by
+              Vodafone.</p>
+          </div>
+          <div id="blue-stage" class="slider-item">
+            <h3>Blue Stage</h3>
+            <p>Part entertainment, part keynotes on marketing knowledge presented by extraordinary speakers.</p>
+          </div>
+          <div id="yellow-stage" class="slider-item">
+            <h3>Yellow Stage</h3>
+            <p>Here, the spotlight is on technology, eCommerce, platforms and CRM with well-known speakers.</p>
+          </div>
         </div>
-        <div class="pagination-slider">
-          <nav>
-            <div class="nav-indicator nav-active" data-id="0"></div>
-            <div class="nav-indicator nav-inactive" data-id="1"></div>
-            <div class="nav-indicator nav-inactive" data-id="2"></div>
-            <div class="nav-indicator nav-inactive" data-id="3"></div>
-          </nav>
-        </div>
+        <button class="next-btn">❯</button>
+      </div>
     </section>
 
-    <!-- <section class="exhibitor-banner">
+    <section class="exhibitor-banner">
       <div>
         <h2>BE AN EXHIBITOR NOW</h2>
         <p>Put your bonafides on full display as an exhibitor and show attendees how your solutions can solve their
           issues.</p>
         <button>BE AN EXHIBITOR ></button>
-        <img src="/images/_planet1.svg" alt="Planet">
-        <img src="/images/_stars1.svg" alt="Planet">
-        <img src="/images/_stars2.svg" alt="Planet">
-        <img src="/images/tablet.svg" alt="Planet">
       </div>
-    </section> -->
+      <div class="images-container">
+        <img id="planet3" src="/images/_planet1.svg" alt="Planet">
+        <img id="stars1" src="/images/_stars1.svg" alt="Stars">
+        <img id="stars2" src="/images/_stars2.svg" alt="Stars">
+        <img id="tablet" src="/images/tablet.svg" alt="Tablet">
+      </div>
+    </section>
 
     <section class="partners">
       <h2>THESE EXHIBITORS WERE SHOWING OFF THEIR WARES IN HAMBURG</h2>
@@ -231,10 +225,10 @@
       </div>
       </div>
       <img id="planet1" src="/images/_planet1.svg" alt="Planet">
-      <img id="planet2"src="/images/_planet2.svg" alt="Planet">
-      <img id="stars3"src="/images/_stars3.svg" alt="Stars">
-      <img id="stars4"src="/images/_stars4.svg" alt="Stars">
-      <img id="stars5"src="/images/_stars5.svg" alt="Stars">
+      <img id="planet2" src="/images/_planet2.svg" alt="Planet">
+      <img id="stars3" src="/images/_stars3.svg" alt="Stars">
+      <img id="stars4" src="/images/_stars4.svg" alt="Stars">
+      <img id="stars5" src="/images/_stars5.svg" alt="Stars">
       </div>
     </section>
   </main>

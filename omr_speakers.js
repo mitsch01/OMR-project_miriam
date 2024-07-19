@@ -16,6 +16,7 @@ async function fetchSpeakersData() {
   }
 }
 
+
 // Function to create a speaker card element
 function createSpeakerCard(speaker) {
   // Create the main speaker card element
@@ -51,6 +52,7 @@ function createSpeakerCard(speaker) {
   return speakerCard;
 }
 
+
 // Function to initialize and display the first set of speakers
 function initializeSpeakers() {
   const speakersGrid = document.querySelector('.speakers-grid');
@@ -68,6 +70,7 @@ function initializeSpeakers() {
   }
 }
 
+
 // Function to render more speakers
 function renderMoreSpeakers() {
   const speakersGrid = document.querySelector('.speakers-grid');
@@ -84,26 +87,21 @@ function renderMoreSpeakers() {
   }
 }
 
-// Event listener for load more button
-const loadMoreButton = document.querySelector('.loadbtn');
-loadMoreButton.addEventListener('click', renderMoreSpeakers);
-
 
 // Function to validate speaker's topics
 function validateSpeakerTopics(speakerTopics, selectedTopics) {
   let topics = speakerTopics.toLowerCase().split(" | ").map(topic => topic.trim());
-  console.log(topics);
   let filteredTopics = topics.filter(topic => selectedTopics.includes(topic));
-  console.log(filteredTopics);
   return filteredTopics.length > 0;
-  // }
 }
+
 
 // Function to validate speaker's day
 function validateSpeakerDay(speakerDay, selectedDays) {
   let day = speakerDay.toLowerCase();
   return selectedDays.includes(day);
 }
+
 
 // Function to filter speakers based on selected topics and days
 function filterSpeakers(selectedTopics, selectedDays) {
@@ -127,6 +125,7 @@ function filterSpeakers(selectedTopics, selectedDays) {
   });
 }
 
+
 // Function to update displayed speakers
 function updateDisplayedSpeakers() {
   const selectedTopics = Array.from(document.querySelectorAll('#topics-dropdown input[type="checkbox"]:checked')).map(option => option.value.toLowerCase());
@@ -149,6 +148,34 @@ function updateDisplayedSpeakers() {
   }
 }
 
+// Event listener for language selector
+const selectedLanguageButton = document.getElementById('selected-language');
+const currentFlagImage = document.getElementById('current-flag');
+const languageOptions = document.getElementById('language-options');
+
+languageOptions.addEventListener('click', function(event) {
+  if (event.target.closest('button')) {
+    const selectedButton = event.target.closest('button');
+    const newFlag = selectedButton.getAttribute('data-flag');
+    
+    currentFlagImage.src = newFlag;
+  }
+});
+
+
+// Event listener for burger menu
+const menuBars = document.querySelector('#menu3 .fa-bars');
+const menuDropdown = document.getElementById('menu3-dropdown');
+
+menuBars.addEventListener('mouseover', function () {
+  menuDropdown.style.display = 'flex';
+});
+
+menuDropdown.addEventListener('mouseleave', function () {
+  menuDropdown.style.display = 'none';
+});
+
+
 // Event listener setup for topics and days dropdowns
 const topicsDropdownInputs = document.querySelectorAll('#topics-dropdown input[type="checkbox"]');
 topicsDropdownInputs.forEach(input => {
@@ -159,9 +186,6 @@ const daysDropdownInputs = document.querySelectorAll('#days-dropdown input[type=
 daysDropdownInputs.forEach(input => {
   input.addEventListener('change', updateDisplayedSpeakers);
 });
-
-// Initial call to display speakers based on default selections
-updateDisplayedSpeakers();
 
 
 // Event listener for search input
@@ -185,6 +209,7 @@ dropdownToggleButtons.forEach(button => {
   });
 });
 
+
 // Event listener to close dropdowns if clicking outside
 window.addEventListener('click', function (event) {
   if (!event.target.matches('.dropbtn')) {
@@ -196,6 +221,11 @@ window.addEventListener('click', function (event) {
     });
   }
 });
+
+
+// Event listener for load more button
+const loadMoreButton = document.querySelector('.loadbtn');
+loadMoreButton.addEventListener('click', renderMoreSpeakers);
 
 
 // Captcha verification
@@ -248,19 +278,6 @@ popupContent.addEventListener('submit', (e) => {
 });
 
 
-// Event listener for burger menu
-const menuBars = document.querySelector('#menu3 .fa-bars');
-const menuDropdown = document.getElementById('menu3-dropdown');
-
-menuBars.addEventListener('mouseover', function () {
-  menuDropdown.style.display = 'flex';
-});
-
-menuDropdown.addEventListener('mouseleave', function () {
-  menuDropdown.style.display = 'none';
-});
-
-
 // Prevent footer links to work
 const footerLinks = document.querySelectorAll('.footer a');
 const socialIcons = document.querySelectorAll('.social-icons a');
@@ -279,6 +296,9 @@ socialIcons.forEach(icon => {
   });
 });
 
+
+// Initial call to display speakers based on default selections
+updateDisplayedSpeakers();
 
 // Initialize the application
 async function initializeApp() {

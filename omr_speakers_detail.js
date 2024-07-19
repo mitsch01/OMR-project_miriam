@@ -13,11 +13,13 @@ async function fetchSpeakerById(id) {
   }
 }
 
+
 // Function to get query parameters from the URL
 function getQueryParams() {
   const params = new URLSearchParams(window.location.search);
   return Object.fromEntries(params.entries());
 }
+
 
 // Function to render the speaker details to be displayed
 function renderSpeakerDetails(speaker) {
@@ -65,6 +67,7 @@ function fetchEventsForSpeaker(eventIds) {
     .catch(error => console.error('Error fetching events data:', error));
 }
 
+
 // Function to create modal for each event
 function createEventElement(event) {
   const eventDiv = document.createElement('div');
@@ -97,6 +100,7 @@ function createEventElement(event) {
 
   return eventDiv;
 }
+
 
 // Function to open modal with event details
 function openModal(event) {
@@ -134,7 +138,7 @@ function openModal(event) {
 }
 
 
-// Chat popup functionality
+// Chat popup
 const openPopupButton = document.getElementById('openPopup');
 const popupForm = document.getElementById('popupForm');
 const closePopupButton = document.getElementById('closePopup');
@@ -169,6 +173,7 @@ popupContent.addEventListener('submit', (e) => {
   });
 });
 
+
 // Event listener for burger menu
 const menuBars = document.querySelector('#menu3 .fa-bars');
 const menuDropdown = document.getElementById('menu3-dropdown');
@@ -180,6 +185,22 @@ menuBars.addEventListener('mouseover', function () {
 menuDropdown.addEventListener('mouseleave', function () {
   menuDropdown.style.display = 'none';
 });
+
+
+// Event listener for language selector
+const selectedLanguageButton = document.getElementById('selected-language');
+const currentFlagImage = document.getElementById('current-flag');
+const languageOptions = document.getElementById('language-options');
+
+languageOptions.addEventListener('click', function(event) {
+  if (event.target.closest('button')) {
+    const selectedButton = event.target.closest('button');
+    const newFlag = selectedButton.getAttribute('data-flag');
+    
+    currentFlagImage.src = newFlag;
+  }
+});
+
 
 // Prevent footer links from working
 const footerLinks = document.querySelectorAll('.footer a');

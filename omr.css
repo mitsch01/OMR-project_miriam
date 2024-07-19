@@ -19,7 +19,7 @@ body,
 html {
   background-color: #fff;
   font-family: "OMR-Sans-Regular", sans-serif;
-  width: 100%;
+  width: 100vw;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -39,6 +39,10 @@ h3 {
   font-family: "OMR-Sans-Bold";
 }
 
+p {
+  line-height: 1.7;
+}
+
 a,
 .fa-bars,
 button {
@@ -52,7 +56,7 @@ button {
   border-radius: 3px;
 }
 
-/* General Styling for All Menus */
+/* General styling for all menus */
 .menu-container section {
   display: flex;
   align-items: center;
@@ -242,67 +246,71 @@ button {
 
 .teaser {
   position: relative;
-  color: white;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: #fff;
 }
 
 .teaser video {
-  height: 830px;
+  min-width: 100vw;
 }
 
-.teaser h1 {
+.teaser div {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -80%);
+  width: 100%;
+}
+
+.teaser h1 {
   font-family: "OMR-Sans-Bold";
   -webkit-text-stroke: 2px #fff;
   color: transparent;
-  font-size: 2.2em;
   font-weight: bolder;
+  line-height: 1.2;
+  margin: 0;
 }
 
 .teaser h3 {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-53%, 160%);
-  font-size: 1.3rem;
-  padding: 10px;
-  border-radius: 5px;
+  margin-top: 10px;
 }
 
 .intro {
   display: flex;
   flex-direction: column;
+  max-width: 1090px;
+  margin: auto;
+  margin-top: -500px;
+}
+
+.intro-text {
+  margin: 60px 30px 10px 30px;
 }
 
 .intro img {
-  width: 86vw;
   margin: 30px;
 }
 
-.intro h1,
-.intro p {
-  margin: 10px 30px;
-}
-
-.speaker-banner {
-  height: 155px;
+.speaker-banner,
+.exhibitor-banner {
   margin-top: 80px;
+  background-color: #000;
+  padding: 50px;
+  color: #fff;
+  position: relative;
 }
 
 .speaker-banner {
   text-align: center;
-  background-color: #000;
-  padding: 20px;
-}
-
-.speaker-banner h2 {
-  color: #fff;
 }
 
 .speaker-banner button,
-.concert-banner button {
+.concert-banner button,
+.exhibitor-banner button {
   background-color: #ffcc00;
   color: #000;
   font-weight: bold;
@@ -310,16 +318,22 @@ button {
 }
 
 .highlights {
-  margin: 30px;
-  margin-top: 80px;
+  max-width: 1090px;
+  margin: 110px 30px 10px 30px;
+}
+
+.highlights p {
+  line-height: 1.3;
+  margin-right: 4%;
 }
 
 .highlights figure {
-  margin: 0;
+  margin: 0 8% 0 0;
 }
 
 .highlights img {
   width: 86vw;
+  max-width: 1000px;
   margin-top: 15px;
 }
 
@@ -334,34 +348,35 @@ button {
   display: none;
 }
 
-.concert-banner h2 {
+.concert-container {
+  background-image: url(/images/sistahh-miri-prinzenbar_223.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  max-width: 1800px;
+  margin: auto;
+}
+
+.concert-container h1 {
+  position: absolute;
+  transform: translate(20%, 240%);
+  font-family: "OMR-Sans-Bold";
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+  font-weight: bolder;
+}
+
+.concert-container h2 {
   margin-top: 110px;
   padding: 30px;
   color: #fff;
   letter-spacing: 2px;
 }
 
-.concert-banner div {
-  background-image: url(/images/sistahh-miri-prinzenbar_223.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 530px;
-}
-
-.concert-banner div h1 {
+.concert-container button {
   position: absolute;
-  transform: translate(20%, 540%);
-  font-family: "OMR-Sans-Bold";
-  -webkit-text-stroke: 2px #fff;
-  color: transparent;
-  font-size: 2.2em;
-  font-weight: bolder;
-}
-
-.concert-banner div button {
-  position: absolute;
-  transform: translate(33%, 670%);
+  transform: translate(33%, 380%);
   font-feature-settings: normal;
   height: 50px;
   border-radius: 2px;
@@ -369,40 +384,57 @@ button {
 }
 
 .stages {
-  margin: 30px;
-  margin-top: 80px;
+  max-width: 1090px;
+  margin: auto;
+  margin-top: 110px;
 }
 
-.stages-carousel {
+.stages h2,
+.stages p {
+  margin-left: 30px;
+}
+
+.stages-slider {
   position: relative;
-  width: 290px;
+  max-width: 1090px;
   margin: auto;
   overflow: hidden;
 }
 
-.carousel-container {
-  display: flex;
-  transition: transform 0.5s ease;
+.stages-slider h2,
+.stages-slider p {
+  margin-left: 0;
 }
 
-.carousel-item {
-  min-width: 100%;
+.slider-container {
+  display: flex;
+  transition: transform 0.5s ease;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.slider-item {
+  flex: 0 0 33.33%;
   box-sizing: border-box;
   padding: 30px;
   text-align: center;
   color: white;
+  margin: 0 10px; 
+  border-radius: 5px; 
+  min-width: 250px;
+  max-width: 250px;
 }
 
-.carousel-item h3 {
+.slider-item h3 {
   font-size: 1.8em;
 }
 
-.carousel-item p {
+.slider-item p {
   font-size: 0.9em;
 }
 
 #conference-stage {
-  background-image: url("/images/stages-slider-conference.jpg");
+  background-image: url("images/stages-slider-conference.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -434,69 +466,63 @@ button.next-btn {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   border: none;
-  padding: 10px;
+  margin: 10px;
+  border-radius: 50%;
   cursor: pointer;
   z-index: 10;
 }
 
 button.prev-btn {
-  left: 0;
+  left: 10px;
 }
 
 button.next-btn {
-  right: 0;
-}
-
-.pagination-slider {
-  text-align: center;
-  margin-top: 10px;
-}
-
-.pagination-slider .nav-indicator {
-  display: inline-block;
-  width: 20px;
-  height: 8px;
-  margin: 5px;
-  border-radius: 3px;  
-  background-color: #ddd;
-  cursor: pointer;
-}
-
-.pagination-slider .nav-active {
-  background-color: #ffcc00;
-  width: 40px;
-  border-radius: 3px;
-
+  right: 10px;
 }
 
 .exhibitor-banner {
-  background-color: #000;
-  text-align: center;
-  padding: 20px;
-  border-radius: 5px;
+  text-align: left;
+}
+
+.exhibitor-banner p {
+  line-height: 1.5;
+  margin: 0 5% 0 0;
+  max-width: 500px;
 }
 
 .exhibitor-banner button {
-  background-color: #333;
-  color: white;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  cursor: pointer;
-  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.images-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100vw;
+}
+
+#planet3,
+#stars1,
+#stars2,
+#tablet {
+  position: absolute;
 }
 
 .partners {
-  margin: 30px;
-  margin-top: 80px;
+  max-width: 1090px;
+  margin: auto;
+  margin-top: 110px;
+  margin-bottom: 110px;
 }
 
-.partners p {
-  margin-bottom: 20px;
-} 
+.partners h2,
+.partners p, .logo-grid {
+  margin-left: 30px;
+}
 
 .logo-grid {
   display: grid;
@@ -520,7 +546,6 @@ button.next-btn {
   height: 50px;
   object-fit: contain;
 }
-
 
 /*////////////////////// SPEAKER OVERVIEW PAGE //////////////////////*/
 
@@ -710,14 +735,20 @@ button.next-btn {
   padding: 30px;
 }
 
-.newsletter img {
+.newsletter img,
+.exhibitor img {
   position: absolute;
-  width: auto;
-  height: auto;
 }
 
-#planet1, #planet2, #stars3, #stars4, #stars5 {
-  transition: all 0.5s ease; /* Smooth transition for resizing */
+#planet1,
+#planet2,
+#stars1,
+#stars2,
+#stars3,
+#stars4,
+#stars5,
+#tablet {
+  transition: all 0.5s ease;
 }
 
 .newsletter-container {
@@ -730,7 +761,6 @@ button.next-btn {
   font-size: 1.3em;
   text-align: left;
   margin-bottom: 20px;
-  /* z-index: 1000; */
 }
 .newsletter form {
   position: relative;
@@ -740,20 +770,6 @@ button.next-btn {
   margin-top: 30px;
   z-index: 1;
 }
-/* .newsletter form::before {
-  content: "";
-  position: absolute;
-  top: 90%;
-  left: 90%;
-  width: 130px;
-  height: 130px;
-  background-image: url("images/_planet1.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  transform: translate(-50%, -50%);
-  z-index: 0;
-} */
-
 .newsletter-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -807,7 +823,7 @@ button.next-btn {
   cursor: pointer;
   height: 25px;
   margin-top: 2px;
-  padding: 2px 25px;
+  padding: 2px 10px;
   z-index: 1;
 }
 .loading {
@@ -850,7 +866,7 @@ button.next-btn {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 20px;
+  padding: 60px 20px 100px 20px;
   text-align: center;
   font-size: 0.9rem;
 }
@@ -872,13 +888,15 @@ footer {
   display: inline-block;
   margin: 0 5px;
 }
-.social-icons a:hover {
-  background-color: #333;
-  border-radius: 1px;
-}
 .social-icons img {
   width: 24px;
   height: 24px;
+}
+.social-icons:hover {
+  transform: scale(1.2);
+}
+.social-icons img:hover {
+  transform: scale(1.2);
 }
 .fixed-button {
   position: fixed;
@@ -1168,7 +1186,8 @@ form textarea:focus {
   height: 100%;
   overflow: auto;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 50px;
   z-index: 1;
 }
 .modal-content {
@@ -1179,6 +1198,7 @@ form textarea:focus {
   background-position: 700px 50px;
   margin: 15% auto;
   padding: 40px;
+  width: 50%;
   max-width: 700px;
   border-radius: 5px;
   z-index: 1;
@@ -1213,25 +1233,121 @@ form textarea:focus {
 
 /*////////////////////// MEDIA QUERIES //////////////////////*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 1025px) {
   /* Styles for large tablets desktops */
   #menu3 {
     display: none;
+  }
+  .intro h1,
+  .speaker-banner h2,
+  .highlights h2,
+  .concert-container h2,
+  .stages h2,
+  .exhibitor-banner h2,
+  .partners h2 {
+    font-size: 2.4em;
+  }
+  .intro p,
+  .highlights p,
+  .exhibitor-banner p,
+  .partners p {
+    font-size: 1.2em;
+  }
+  .teaser {
+    height: 700px;
+    overflow: hidden;
+  }
+  .teaser div {
+    transform: translate(-25%, -50%);
+  }
+  .teaser h1 {
+    font-size: 4.2em;
+  }
+  .teaser h3 {
+    font-size: 1.7rem;
+  }
+  .intro {
+    margin-top: 0;
+    flex-direction: row;
+  }
+  .intro img {
+    width: 50%;
+    height: 50%;
+    margin: 72px 0 0 20px;
+  }
+  .highlights {
+    margin: auto;
+  }
+  .highlights h2 {
+    margin-top: 110px;
+  }
+  .highlights h2,
+  .highlights p,
+  .highlights figure {
+    margin-left: 30px;
+  }
+  .highlights figcaption {
+    font-size: 0.95em;
+  }
+  .speaker-banner {
+    height: 280px;
+    padding-top: 100px;
+  }
+  .concert-container {
+    height: 800px;
+  }
+  .concert-container h1 {
+    font-size: 8em;
+    transform: translate(40px, 240px);
+  }
+  .concert-container h2 {
+    transform: translate(20px, 20px);
+  }
+  .concert-container button {
+    transform: translate(42px, 500px);
+    height: 60px;
+    width: 130px;
+    font-size: 1em;
+  }
+  .speaker-banner button,
+  .exhibitor-banner button {
+    height: 60px;
+    font-size: 1em;
+  }
+  .exhibitor-banner {
+    height: 300px;
+    padding-top: 100px;
+  }
+  .exhibitor-banner h2,
+  .exhibitor-banner p,
+  .exhibitor-banner button {
+    margin-left: 25%;
+  }
+  .exhibitor-banner h2 {
+    margin-top: 0;
+  }
+  .exhibitor-banner p,
+  .partners p {
+    font-size: 1.2em;
+  }
+  #planet3 {
+    width: 180px;
+    top: 40px;
+    left: 10px;
+  }
+  #stars1 {
+    width: 380px;
+    right: 0;
+  }
+  #stars2 {
+    width: 90px;
+    top: 180px;
+    left: -10px;
+  }
+  #tablet {
+    width: 350px;
+    bottom: 0;
+    right: -40px;
   }
   .banner-overlay {
     transform: scale(1.8) translateX(30%);
@@ -1264,12 +1380,12 @@ form textarea:focus {
   #planet1 {
     top: 10%;
     left: 80%;
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
   }
   #planet2 {
-    top: 70%;
-    left: 1%;
+    top: 55%;
+    left: 3%;
     width: 170px;
     height: 170px;
   }
@@ -1298,6 +1414,75 @@ form textarea:focus {
   #menu3 {
     display: none;
   }
+  .teaser div {
+    transform: translate(-45%, -110%);
+  }
+  .teaser h1 {
+    font-size: 4.2em;
+  }
+  .teaser h3 {
+    font-size: 1.7rem;
+  }
+  .intro {
+    margin-top: -500px;
+    flex-direction: row;
+  }
+  .intro img {
+    width: 50%;
+    height: 50%;
+    margin-top: 72px;
+    margin-left: 20px;
+  }
+  .concert-container {
+    height: 600px;
+  }
+  .concert-container h1 {
+    font-size: 3.7em;
+    transform: translate(40px, 230px);
+  }
+  .concert-container h2 {
+    font-size: 1.5em;
+    transform: translate(20px, 20px);
+  }
+  .concert-container button {
+    transform: translate(42px, 350px);
+    height: 50px;
+    width: 110px;
+    font-size: 0.9em;
+  }
+  .speaker-banner {
+    height: 160px;
+    padding-top: 70px;
+  }
+  .exhibitor-banner {
+    height: 200px;
+    padding-top: 50px;
+  }
+  .exhibitor-banner h2,
+  .exhibitor-banner p,
+  .exhibitor-banner button {
+    margin-left: 12%;
+  }
+  #planet3 {
+    display: block;
+    width: 120px;
+    top: 50px;
+    left: -70px;
+  }
+  #stars1 {
+    width: 200px;
+    right: 0;
+  }
+  #stars2 {
+    width: 60px;
+    top: 50px;
+    right: 10px;
+  }
+  #tablet {
+    width: 200px;
+    bottom: 0;
+    right: -40px;
+  }
   .banner-overlay {
     transform: scale(1.5) translateX(20%);
   }
@@ -1320,8 +1505,8 @@ form textarea:focus {
     height: 120px;
   }
   #planet2 {
-    top: 70%;
-    left: -10%;
+    top: 55%;
+    left: -5%;
     width: 150px;
     height: 150px;
   }
@@ -1354,6 +1539,49 @@ form textarea:focus {
   #menu3 {
     display: flex;
   }
+  .teaser div {
+    transform: translate(-35%, -120%);
+  }
+  .teaser h1 {
+    font-size: 3.2em;
+  }
+  .teaser h3 {
+    font-size: 1.5rem;
+  }
+  .intro {
+    margin-top: -500px;
+    flex-direction: column;
+  }
+  .intro img {
+    width: 90%;
+    height: 90%;
+    margin: 30px;
+  }
+  .concert-container {
+    height: 400px;
+  }
+  .concert-container h1 {
+    font-size: 2.2em;
+    transform: translate(30px, 125px);
+  }
+  .concert-container h2 {
+    font-size: 1.4em;
+    transform: translate(10px, 10px);
+  }
+  .concert-container button {
+    transform: translate(32px, 195px);
+    height: 50px;
+    width: 90px;
+    font-size: 0.8em;
+  }
+  .exhibitor-banner h2,
+  .exhibitor-banner p,
+  .exhibitor-banner button {
+    margin-left: 0;
+  }
+  #planet3 {
+    display: none;
+  }
   .banner-overlay {
     transform: scale(1.1) translateX(10%);
   }
@@ -1364,6 +1592,20 @@ form textarea:focus {
   .banner-overlay {
     transform: scale(0.9);
   }
+  .teaser div {
+    transform: translate(-40%, -150%);
+  }
+  .teaser h1 {
+    font-size: 2.2em;
+  }
+  .teaser h3 {
+    font-size: 1.3rem;
+  }
+  .speaker-banner {
+    height: 130px;
+    padding-top: 40px;
+  }
+
   .newsletter-grid {
     grid-template-columns: 1fr;
   }
@@ -1403,5 +1645,10 @@ form textarea:focus {
   /* Styles for small mobile phones */
   .banner {
     display: none;
+  }
+  #tablet {
+    width: 150px;
+    bottom: 20px;
+    right: -10px;
   }
 }
